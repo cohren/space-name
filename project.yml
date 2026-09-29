@@ -1,6 +1,6 @@
 name: SpaceName
 options:
-  bundleIdPrefix: com.cohren
+  bundleIdPrefix: com.axiomaticsoftware
   deploymentTarget:
     macOS: "14.0"
 configFiles:
@@ -23,6 +23,6 @@ targets:
         CFBundleDisplayName: SpaceName
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.cohren.SpaceName
+        PRODUCT_BUNDLE_IDENTIFIER: com.axiomaticsoftware.SpaceName
         ENABLE_HARDENED_RUNTIME: YES
         GENERATE_INFOPLIST_FILE: NO

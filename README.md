@@ -36,7 +36,7 @@ macOS has no public API for identifying the current Space, so SpaceName uses the
 - It can't be distributed on the Mac App Store.
 - A future macOS update could change the private API. If that happens, the label hides and the menu shows "Space detection unavailable" rather than crashing.
 
-The app needs no permissions, makes no network requests, and stores labels only in its own local preferences (`com.cohren.SpaceName`).
+The app needs no permissions, makes no network requests, and stores labels only in its own local preferences (`com.axiomaticsoftware.SpaceName`).
 
 The label updates when macOS reports that the Space has changed, which is at the end of the switch animation.
 

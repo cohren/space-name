@@ -159,7 +159,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cohren.SpaceName;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiomaticsoftware.SpaceName;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -301,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cohren.SpaceName;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiomaticsoftware.SpaceName;
 				SDKROOT = macosx;
 			};
 			name = Debug;
