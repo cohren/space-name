@@ -1,0 +1,28 @@
+name: SpaceName
+options:
+  bundleIdPrefix: com.cohren
+  deploymentTarget:
+    macOS: "14.0"
+configFiles:
+  Debug: Config.xcconfig
+  Release: Config.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  SpaceName:
+    type: application
+    platform: macOS
+    sources: [SpaceName]
+    info:
+      path: SpaceName/Info.plist
+      properties:
+        LSUIElement: true
+        CFBundleDisplayName: SpaceName
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.cohren.SpaceName
+        ENABLE_HARDENED_RUNTIME: YES
+        GENERATE_INFOPLIST_FILE: NO
